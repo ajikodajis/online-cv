@@ -3,60 +3,104 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Two Full Stack Developer
+    name: Shaswot Shresthamali
+    tagline: PhD Student @ The University of Tokyo
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: shaswot[at]hal.ipc.i.u-tokyo.ac.jp
+    phone:
+    website: #do not add http://
+    linkedin: shaswot-sm
+    github: ajikodajis
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
+    twitter: '@shaswotsatya'
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
       - idiom: English
+        level: Professional
+
+      - idiom: Nepali
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: Japanese
+        level: Intermediate
 
-      - idiom: Spanish
-        level: Professional
 
-    interests:
-      - item: Climbing
-        link:
+    # interests:
+    #   - item:
+    #     link:
+    #
+    #   - item:
+    #     link:
+    #
+    #   - item:
+    #     link:
 
-      - item: Snowboarding
-        link:
+publications:
+    title: Publications
+    intro:
+    papers:
+      - title: |
+            <b>Power Management of Wireless Sensor Nodes with Coordinated
+            Distributed Reinforcement Learning </b>
 
-      - item: Cooking
-        link:
+        link: "https://ieeexplore.ieee.org/document/8988718"
+        authors: <u>Shaswot Shresthamali</u>, Masaaki Kondo, and Hiroshi Nakamura
+        conference: <b>International Conference on Computer Design (ICCD 2019)</b>
+
+      - title: |
+          <b>Adaptive power management in solar energy harvesting sensor node
+          using reinforcement learning</b>
+
+        link: "https://dl.acm.org/doi/10.1145/3126495"
+        authors: <u>Shaswot Shresthamali</u>, Masaaki Kondo, and Hiroshi Nakamura
+        conference: <b>International Conference on Embedded Software (EMSOFT 2017)</b>
+
+      - title: <b>適応的電力制御を行う環境発電駆動センサノードの強化学習戦略の比較評価</b>
+        link: "http://id.nii.ac.jp/1001/00182741/"
+        authors: <u>シュレスタマリ サソット</u> , 近藤 正章 , 中村 宏
+        conference: <b>研究報告システム・アーキテクチャ（ARC）</b>, 2017-ARC-227(28), 1-8
+
+      - title: <b>強化学習を用いた環境発電駆動センサノードの適応的電力制御手法の検討</b>
+        link: "http://id.nii.ac.jp/1001/00178013/"
+        authors: <u>シュレスタマリ サソット</u> , 近藤 正章 , 中村 宏
+        conference: <b>研究報告組込みシステム（EMB）</b>, 2017-EMB-44(26), 1-6
+
+      - title: <b>Implementation of Audio Effect Generator in FPGA</b>
+        link: ""
+        authors: Chhetri, S. R., Poudel, B., Ghimire, <u>S., Shresthamali</u>, S., & Sharma, D. K
+        conference: <b>Nepal Journal of Science and Technology</b> 15-1 (2014), 89-98
+
+      - title: <b>An Introduction to Parallel Processing Using FPGAs</b>
+        link: ""
+        authors:  <u>Shaswot Shresthamali</u>
+        conference: <b>KEC Journal of Science and Engineering (November 2014)</b>
 
 career-profile:
-    title: Career Profile
+    title: Research Interests
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am interested in developing practical reinforcement learning (RL)
+      algorithms that can learn complex tasks in realistic environmental settings
+      (e.g. wireless sensor systems, robotics and real-time controls systems).
+
+      I am presently researching on
+        - autonomous energy management of energy-harvesing wireless sensor nodes
+        - the effect of time granularity in Deep RL systems and
+        - feature selection for Deep RL.
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: Masters in Information Science and Technology
+      university: The University of Tokyo
+      time: 2016 - 2018
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -65,9 +109,9 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: Bachelors in Electronics and Communication Engineering
+      university: Tribhuvan University
+      time: 2008 - 2012
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -77,9 +121,10 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Research Fellow
+      time: 2018/04 - 2021/03
+      company: Japan Society for Promotion of Science (JSPS)
+      link: "https://www.jsps.go.jp/english/index.html"
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -92,20 +137,27 @@ experiences:
         architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+
+    - role: Intern
+      time: 2018/04 - 2018/08
+      company: Ridge-i, Inc.
+      link: "https://ridge-i.com/en/"
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
+        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
+        error sit voluptatem accusantium doloremque laudantium, totam rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+        architecto beatae vitae dicta sunt explicabo.
           - Bullet point
           - Bullet point
-    - role: UI Developer
+    - role: Lecturer
       time: 2012 - 2014
-      company: Amazon, London
+      company: Sagarmatha Engineering College, Nepal
+      link: "http://sagarmatha.edu.np/"
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -114,6 +166,7 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
+
 projects:
     title: Projects
     intro: >
@@ -141,27 +194,7 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
